@@ -1,0 +1,115 @@
+/* 1/ Simple Selectors */
+
+/* a. Element selector */
+/* h1{
+    color: brown;
+    background-color: blue;
+} */
+
+/* b. Id Selectors */
+#paral{
+    color: rgb(5, 5, 5);
+    background-color: rgb(240, 240, 16);
+}
+
+/* c. Class Selectors (Ideal Selector) */
+.para2{
+    color: blueviolet;
+    background-color: cadetblue;
+}
+
+.navbar{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    color: aliceblue;
+}
+.herotext{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Combination selectors */
+div h2{
+    color: brown;
+}
+
+/* child selectors */
+div>h2{
+    color: rgb(183, 0, 255);
+}
+
+/* adjacent selectors */
+div+p{
+    color: blue;
+}
+
+/* sibling selector */
+div~h3{
+    color: blanchedalmond;
+    background-color: red;
+}
+
+/* Pseudo classes */
+.btn-test{
+    color: chocolate;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: crimson;
+}
+.btn-test:hover{
+    background-color: blanchedalmond;
+    color: rgb(61, 61, 4);
+}
+.btn-test:active{
+    background-color: white;
+
+}
+.link-test:hover{
+    color: rgb(70, 70, 124);
+}
+.link-test:active{
+    color: blueviolet;
+
+}
+/* .link-test:link{
+    color: chocolate;
+
+}
+.link-test:visited{
+    color: black;
+} */
+
+/* h1{
+    color: yellowgreen;
+
+} */
+
+/* highest precedding */
+/* #heading{
+    color: red;
+}
+.heading1{
+    color: green;
+} */
+
+body{
+    /* background-color: blueviolet; */
+    background-image: url('./developer-illustration.webp');background-repeat: no-repeat;
+    /* background-position: 0%; */
+}
+p{
+    font-size: large;
+}
+
+.heading1{
+    margin: 5px 9px;
+    border-style: ridge;
+    border-width: 0.05em;
+    border: solid medium blue;
+    padding: 2px 3px 4px 5px;
+
+    text-align: center;
+    text-transform: capitalize;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: xx-large;
+    font-weight: 800;
+}
